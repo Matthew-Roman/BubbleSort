@@ -1,0 +1,14 @@
+
+let array = [5, 2, 19, 1, 34]
+
+var fake = array
+let count = fake.count
+
+for i in  0 ..< count {
+    for j in 0 ..< count - i - 1 {
+        if fake[j] > fake[j + 1] {
+            fake.swapAt(j, j + 1)
+        }
+    }
+}
+print(fake) 
