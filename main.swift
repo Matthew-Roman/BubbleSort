@@ -1,10 +1,7 @@
-
 var unsortedArray = [String]()
-
 // Add your code below:
 var line : String?
 repeat {
-
     line = readLine()
     if line != nil {
         unsortedArray.append(line!)
@@ -12,9 +9,7 @@ repeat {
     unsortedArray.append(line!)
 } while line != nil
 
-
 func sort(array: [String]) {
-
     var fake = array
     let count = fake.count
 
