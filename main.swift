@@ -1,4 +1,4 @@
-var word = String()
+
 var unsortedArray = [String]()
 
 // Add your code below:
@@ -7,10 +7,9 @@ repeat {
 
     line = readLine()
     if line != nil {
-        word.append(line!)
+        unsortedArray.append(line!)
     }
-    unsortedArray.append(word)
-    word.removeAll()
+
 } while line != nil
 
 
