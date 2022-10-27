@@ -6,7 +6,6 @@ repeat {
     if line != nil {
         unsortedArray.append(line!)
     }
-    unsortedArray.append(line!)
 } while line != nil
 
 func sort(array: [String]) {
